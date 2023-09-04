@@ -1,0 +1,15 @@
+CÁLCULOS ARÉA:
+
+NOTA: B- base maior | b- base menor;
+h - altura ;
+APOTEMA - LADO / 2;
+
+-------------------------------------
+
+HEXAGONO REGULAR - A = 6l²√3/4;
+
+TRAPEZOIDE IRREGULAR - A = (B + b) * h TUDO ISSO DIVIDIDO POR 2; 
+
+POLIGONO REGULAR COM N LADOS - A = NÚMERO DE LADOS * LADO * APOTEMA, TUDO ISSO DIVIDIDO POR 2;
+
+SETOR CIRCULAR EM UM CÍRCULO ANINHADO =  π · r2 · a DIVIDIDO POR 360

@@ -1,0 +1,100 @@
+*{
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin: 0; 
+    padding: 0;
+ }
+
+.menu button {
+    text-align: center;
+    justify-content: center;
+    background: #0C95ED;
+    border-color: #0977c0;
+    border-radius: 15px ;
+    list-style-type: none;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 500ms linear; 
+    width: 300px;
+    height: 85px;
+    margin-top: 15px;
+}
+
+.menu button:hover {
+    transition: .3s;
+    background: #055b94;
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+.menu1 a {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.titulo {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    font-size: 2.2em;
+    color: white;
+    padding-top: 20px;
+}
+
+.bem-vindo {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.cabeca {
+    background: #0C95ED;
+    width: 550px;
+    height: 110px;
+    border-radius: 35px;
+    margin-left: 30%;
+}
+
+footer {
+    background: #0C95ED;
+    height: 150px;
+    margin-top: 100px;
+}
+
+.despedida {
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    font-weight: bolder;    
+    margin-top: 20px;
+    color: white;
+}
+.peba h2 {
+    margin-top: 30px;
+    padding-top: 30px ;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.palala {
+    margin-top: 35px;
+}
+
+.claro {
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #0c5383;
+    font-size: 2.2rem;
+}
+
+.claro:hover {
+    transition: 0.5s;
+    color: white;
+}

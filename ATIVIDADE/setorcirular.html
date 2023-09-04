@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Área do setor circular em um círculo aninhado</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Área do setor circular em um círculo aninhado" />
+    <meta name="keywords" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilo3.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="poc">
+            <h2>Calcule a área do setor circular em um círculo aninhado</h2>
+            <h1>Calcule abaixo a área do setor circular em um círculo aninhado, <br> utilizando a fórmula: <span class="geraldo">A = π · r2 · a /
+                360</span></h1>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="" id="mandada">
+        <form method="post" class="row">
+            <div class="col-sm-6">
+                <label for="base" class="form-label">Raio:</label>
+                <input type="number" class="form-control" id="base" name="base" placeholder="Insira o raio aqui" value="" required>
+              </div>
+              <div class="col-sm-6">
+                <label for="altura" class="form-label">Altura:</label>
+                <input type="number" class="form-control" id="altura" name="altura" placeholder="Insira a altura aqui" value="" required>
+              </div>
+           
+            <div>
+                <input type="submit" class="w-100 btn btn-primary btn-lg" id="btnCalc" value="Calcular" />
+            </div>
+
+        </form>
+
+        <div class="text-center">
+            <h3 id="resultado"></h3>
+        </div>
+    </div>
+</div>
+
+    <script>
+        
+        document.getElementById("btnCalc").addEventListener("click", function (event) {
+
+        event.preventDefault();
+        var base = document.getElementById("base").value;
+        var altura = document.getElementById("altura").value;
+        var area = Math.PI * ((base * 2) * altura) / 360;
+        document.getElementById("resultado").innerHTML = "Resultado: " + area;
+});
+
+    
+
+    </script>
+
+
+    <footer>
+       <div class="peba"> <h2 class="despedida"> OBRIGADA POR UTILIZAR A MINHA PLATAFORMA!</h2></div>   
+       <p class="pginicial"><a href="index.html">Página Inicial</a></p>
+    </footer>
+</body>
+
+</html>
