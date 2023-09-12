@@ -19,17 +19,17 @@
 
         <div class="poc">
             <h2>Calcule a área do tronco da pirâmide</h2>
-            <h1>Calcule abaixo a área do tronco da pirâmide irregular utilizando a fórmula: <span class="geraldo">L * L</span></h1>
+            <h1>Calcule abaixo a área do tronco da pirâmide irregular <br> utilizando a fórmula: <span class="geraldo">Base maior + base menor + área lateral</span></h1>
         </div>
 
         <div class="" id="mandada">
         <form method="post" class="row">
               <div class="col-sm-6">
-                <label for="base" class="form-label">Área 1:</label>
+                <label for="base" class="form-label">Área maior:</label>
                 <input type="number" class="form-control" id="raio1" name="raio1" placeholder="Insira a base maior aqui" value="" required>
               </div>
               <div class="col-sm-6">
-                <label for="basemenor" class="form-label">Área 2:</label>
+                <label for="basemenor" class="form-label">Área menor:</label>
                 <input type="number" class="form-control" id="raio2" name="raio2" placeholder="Insira a base menor aqui" value="" required>
               </div>
               <div class="col-sm-6">
@@ -57,6 +57,10 @@
         var raio1= document.getElementById("raio1").value;
         var raio2 = document.getElementById("raio2").value;
         var raio3 = document.getElementById("raio3").value;
+        raio1= Number(raio1);
+        raio2= Number(raio2);
+        raio3 =Number(raio3);
+
         var area = raio1 + raio2 + raio3;
         document.getElementById("resultado").innerHTML = "Resultado: A =" + area;
 });
